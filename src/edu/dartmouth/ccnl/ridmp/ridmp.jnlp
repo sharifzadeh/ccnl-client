@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+"
+      codebase="http://localhost:8080" href="ridmp.jnlp">
+
+    <information>
+        <title>Reward influence on decision making and perception</title>
+        <vendor>CCNL</vendor>
+        <homepage href="http://ccnl.dartmouth.edu:8080/" />
+        <description>CCNL</description>
+    </information>
+
+    <security>
+        <all-permissions/>
+    </security>
+
+    <resources>
+        <j2se version="1.7+"
+              href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="http://127.0.0.1:8080/ridmp.jar" main="true"/>
+    </resources>
+
+    <application-desc main-class="edu.dartmouth.ccnl.ridmp.ui.RidUI" />
+</jnlp>
